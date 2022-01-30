@@ -1,0 +1,19 @@
+.doneList {
+    width: 40%;
+    border: 2px solid black;
+}
+
+.doneList-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 5px;
+}
+
+.list_text {
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 50px;
+}

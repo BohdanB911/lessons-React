@@ -1,0 +1,52 @@
+.todo_list {
+    width: 40%;
+    border: 2px solid black;
+}
+
+.todo_list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 5px;
+}
+
+.list_text {
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 50px;
+}
+
+.doneList {
+    position: relative;
+}
+
+.reset_btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 80%;
+    background-color: chartreuse;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.delete {
+    background-color: red;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    margin-left: 20px;
+    width: 50px;
+}
+
+.move {
+    background-color: chartreuse;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+}
