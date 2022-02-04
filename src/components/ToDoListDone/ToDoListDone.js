@@ -15,7 +15,6 @@ return(
                 <button className="delete" onClick={(e) => handleDelete(e,item)}>
                 X
                 </button>
-                <p>https://sharing.clickup.com/t/h/1uwwwwy/FBLBJ1X3WKDW8S7</p>
            </div>
          ))}
      </div>
